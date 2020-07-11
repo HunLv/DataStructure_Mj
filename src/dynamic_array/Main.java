@@ -23,7 +23,8 @@ public class Main {
         persons.remove(2);
 //        persons.set(3,new Person(10,"wanpihuan"));
         persons.clear();
-        // 提醒 JVM 进行回收
+
+        /*提醒 JVM 进行回收—— 如果相关对象实现了  finalize 方法，在回收的时候会调用*/
         System.gc();
 
 //        System.out.println(persons);

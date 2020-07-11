@@ -63,7 +63,8 @@ public class ArrayList_Generic<E> {
        }else { // 不为空，找相同的元素
            for (int i = 0; i < size; i++) {
                // TODO 强调：这里使用 equals 重点是为用户 提供接口，不仅仅是 == 中简单的比较内存地址，而是可以自定义比较的内容
-               if (elements[i].equals(element))  return i;
+               // 注意： 经过 判断， element 一定不为空，因此可以 调用 equals 方法
+               if (element.equals(elements[i]))  return i;
            }
        }
         return ELEMENT_NOT_FOUND;

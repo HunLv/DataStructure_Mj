@@ -45,7 +45,7 @@ public class ArrayList_Generic_better<E> {
            }
        }else { // 不为空，找相同的元素
            for (int i = 0; i < size; i++) {
-               if (elements[i].equals(element))  return i;
+               if (element.equals(elements[i]))  return i;
            }
        }
         return ELEMENT_NOT_FOUND;
