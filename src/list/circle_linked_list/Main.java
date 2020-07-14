@@ -1,23 +1,12 @@
-package list.single_list;
+package list.circle_linked_list;
 
 import list.List;
 import tools.Asserts;
 
-/**
- * @description: 测试 单向链表
- * @create: 2020-07-08-18:29
- **/
 public class Main {
-
     public static void main(String[] args) {
-        List list = new SingleList<>();
-        list.add(11);
-        list.add(22);
-        list.add(33);
-        list.add(44);
-        ((SingleList) list).testReversePrint();
+        testList(new CircleLinkedList<>());
     }
-
     static void testList(List<Integer> list) {
         list.add(11);
         list.add(22);

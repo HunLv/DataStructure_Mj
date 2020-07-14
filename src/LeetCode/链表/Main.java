@@ -2,6 +2,7 @@ package LeetCode.链表;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.Stack;
 import java.util.TreeSet;
 
 /**
@@ -11,6 +12,19 @@ import java.util.TreeSet;
  **/
 public class Main {
     public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(2);
+        stack.push(44);
+        stack.push(33);
+        for (int x:stack){
+            System.out.println(x);
+        }
+        while (! stack.empty()){
+            System.out.println(stack.pop());
+        }
+    }
+    public static void main1(String[] args) {
+
 //        // 字符串默认是按字母进行排序,元素内部自动处理排序
 //        Set<String> set1 = new TreeSet<>();
 //        set1.add("bin ");

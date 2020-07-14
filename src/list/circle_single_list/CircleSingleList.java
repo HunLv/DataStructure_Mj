@@ -3,7 +3,7 @@ package list.circle_single_list;
 import list.AbstractList;
 
 /**
- * @description: 单向循环链表
+ * @description: 循环单向链表
  * @create: 2020-07-10 18:54
  **/
 public class CircleSingleList<E> extends AbstractList<E> {

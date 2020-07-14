@@ -89,6 +89,7 @@ public class SingleList<E> extends AbstractList<E> {
 
     /**
      * TODO
+     *
      * @param index 说明，传入的位置 从 0 开始，如果要 删除最后一个元素，只需将 size 传入
      * @return
      */
@@ -210,5 +211,20 @@ public class SingleList<E> extends AbstractList<E> {
 
         string.append("]");
         return string.toString();
+    }
+
+    /***************************************算法练习区域*************************************************/
+    /**
+     *  从链表的结尾逆序 遍历 打印链表
+     * @param head
+     */
+    public void reversePrint(Node head) {
+        if (head == null) return;
+
+        reversePrint(head.next);
+        System.out.println(head.element);
+    }
+    public void testReversePrint(){
+        reversePrint(first);
     }
 }
