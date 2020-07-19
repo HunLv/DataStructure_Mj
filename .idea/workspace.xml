@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9fb3033-c494-438e-8dfe-353ee9625c58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Grammar/Generic_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/anonymous/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/anonymous/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/anonymous/PersonManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/PersonManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/PersonManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/official/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/official/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/official/PersonManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/grammer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/周赛/_198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/bst.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/data/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/file/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/interface.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/tree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +117,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Dequ&#9;PSI&#9;JAVA://java.util.Deque&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;java.util.ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;java.util.Que&#9;PSI&#9;JAVA://java.util.Queue&#10;Stack&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/Stack.java&#10;Arrays&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/Arrays.java&#10;List &#9;PSI&#9;JAVA://java.util.List&#10;List&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/List.java&#10;ArrayL&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/ArrayList.java&#10;Collec&#9;PSI&#9;JAVA://java.util.Collection&#10;Colle&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/Collections.java&#10;single&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;Linked&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/LinkedList.java&#10;Node()&#9;PSI&#9;JAVA://list.circle_single_list.CircleSingleList#node&#10;Sing&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;sing&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;Ab&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/AbstractList.java&#10;sL&#9;PSI&#9;JAVA://list.single_list.SingleList&#10;AL&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/ArrayList.java&#10;Sin&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;Pe&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Person.java&#10;Link&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/LinkedList.java&#10;m&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Main.java&#10;A&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/linked_list/ArrayList.java&#10;Rangec&#9;PSI&#9;JAVA://linked_list.AbstractList#rangeCheck&#10;P&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Person.java&#10;Per&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Person.java" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tree/binarySearchTree" />
@@ -289,7 +260,8 @@
     <MESSAGE value="Temporarily saving after CircleSingleList" />
     <MESSAGE value="CircleLinkedList done." />
     <MESSAGE value="学完了 stack, queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="学完了 stack, queue" />
+    <MESSAGE value="测试一下 markdown 图片显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试一下 markdown 图片显示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594955228945">
@@ -308,10 +280,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1595137423725" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1595039526002">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1595173509049">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595039526002" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595173509049" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1595135401649">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -356,10 +328,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595172812675" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1595039554601">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1595173557150">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1595039554601" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1595173557150" />
     <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595142829355">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
