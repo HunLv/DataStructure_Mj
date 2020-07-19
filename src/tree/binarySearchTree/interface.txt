@@ -1,0 +1,11 @@
+public int size() {return size;}
+
+public boolean isEmpty() { return false;}
+
+public void clear() {}
+
+public void add(E element){}
+
+public void remove(E element){}
+
+public boolean contains(E element){return false;}

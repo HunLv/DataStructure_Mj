@@ -1,44 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9fb3033-c494-438e-8dfe-353ee9625c58" name="Default Changelist" comment="Temporarily saving after CircleSingleList">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dell.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/AsList_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleDeque/CircleDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleDeque/CircleDeque.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleDeque/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleDeque/interface.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleQueue/CircleQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleQueue/CircleQueue_box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleQueue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleQueue/circleQueue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/circleQueue/interface_circle_queue.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/deque/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/deque/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/deque/deque.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/deque/interface_deque.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/interface_queue.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/list/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/list/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/queue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/Stack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/interface.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/list/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/list/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/list/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d9fb3033-c494-438e-8dfe-353ee9625c58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Grammar/Generic_Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/anonymous/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/anonymous/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/anonymous/PersonManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparable/PersonManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/comparaor/PersonManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/official/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/official/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/compare/official/PersonManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/grammer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/周赛/_198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/bst.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/data/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/file/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/interface.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/BinaryTreeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/BinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/InorderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/LevelOrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/printer/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/tree.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/链表/_剑指Offer_06_从尾到头打印链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/链表/_剑指Offer_06_从尾到头打印链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进度说明.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,64 +146,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Dequ&#9;PSI&#9;JAVA://java.util.Deque&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;java.util.ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;java.util.Que&#9;PSI&#9;JAVA://java.util.Queue&#10;Stack&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/Stack.java&#10;Arrays&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/Arrays.java&#10;List &#9;PSI&#9;JAVA://java.util.List&#10;List&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/List.java&#10;ArrayL&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/ArrayList.java&#10;Collec&#9;PSI&#9;JAVA://java.util.Collection&#10;Colle&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/Collections.java&#10;single&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;Linked&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/LinkedList.java&#10;Node()&#9;PSI&#9;JAVA://list.circle_single_list.CircleSingleList#node&#10;Sing&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;sing&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;Ab&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/AbstractList.java&#10;sL&#9;PSI&#9;JAVA://list.single_list.SingleList&#10;AL&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/ArrayList.java&#10;Sin&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/list/single_list/SingleList.java&#10;Pe&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Person.java&#10;Link&#9;FILE&#9;jar://D:/java/JDK8/src.zip!/java/util/LinkedList.java&#10;m&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Main.java&#10;A&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/linked_list/ArrayList.java&#10;Rangec&#9;PSI&#9;JAVA://linked_list.AbstractList#rangeCheck&#10;P&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Person.java&#10;Per&#9;FILE&#9;file://E:/MyCode/DataStructure_Mj/src/dynamic_array/Person.java" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Queue/list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tree/binarySearchTree" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\list" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Queue" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\stack" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\stack\list" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\list\others" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="queue.deQueue" />
-      <recent name="Queue.circle" />
-      <recent name="Queue.list" />
-      <recent name="stack.list" />
-      <recent name="list.circle_linked_list" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyCode\DataStructure_Mj\src\tree" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\tree\binarySearchTree" />
       <recent name="E:\MyCode\DataStructure_Mj\src\Queue\circle" />
       <recent name="E:\MyCode\DataStructure_Mj\src\Queue\deque" />
       <recent name="E:\MyCode\DataStructure_Mj\src\Queue" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\list" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tree.binarySearchTree" />
+      <recent name="Grammar.compare.anonymous" />
+      <recent name="Grammar.compare.comparaor" />
+      <recent name="Grammar.compare.comparable" />
+      <recent name="queue.deQueue" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyCode\DataStructure_Mj\src\tree\binarySearchTree" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare\anonymous" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare\official" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\list" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="AsList_Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Grammar.AsList_Demo" />
-      <module name="DataStructure_Mj" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.Main" />
+      <option name="MAIN_CLASS_NAME" value="Grammar.compare.comparable.Main" />
       <module name="DataStructure_Mj" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.circleDeque.Main" />
+      <option name="MAIN_CLASS_NAME" value="tree.binarySearchTree.Main" />
       <module name="DataStructure_Mj" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="queue.Main" />
+      <option name="MAIN_CLASS_NAME" value="Grammar.compare.data.Main" />
+      <module name="DataStructure_Mj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grammar.compare.comparaor.Main" />
+      <module name="DataStructure_Mj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grammar.compare.official.Main" />
       <module name="DataStructure_Mj" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,27 +223,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Grammar.Test" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grammar.compare.comparable.Person" />
       <module name="DataStructure_Mj" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AsList_Demo" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Person" />
       <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.AsList_Demo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -288,61 +288,82 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Temporarily saving after CircleSingleList" />
     <MESSAGE value="CircleLinkedList done." />
-    <option name="LAST_COMMIT_MESSAGE" value="CircleLinkedList done." />
+    <MESSAGE value="学完了 stack, queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="学完了 stack, queue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594955228945">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="498" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1594955228945" />
-    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1595034463883">
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1595142742834">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1595034463883" />
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1595142742834" />
     <state x="392" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594955450871">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="392" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1594955450871" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595137423725">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1595137423725" />
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1595039526002">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595039526002" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1595135401649">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1595135401649" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1595031417224">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1595031417224" />
-    <state width="1537" height="267" key="GridCell.Tab.0.bottom" timestamp="1595039344692">
+    <state width="1537" height="99" key="GridCell.Tab.0.bottom" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="267" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595039344692" />
-    <state width="1537" height="267" key="GridCell.Tab.0.center" timestamp="1595039344692">
+    <state width="1537" height="99" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="99" key="GridCell.Tab.0.center" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="267" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595039344692" />
-    <state width="1537" height="267" key="GridCell.Tab.0.left" timestamp="1595039344692">
+    <state width="1537" height="99" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="99" key="GridCell.Tab.0.left" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="267" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595039344692" />
-    <state width="1537" height="267" key="GridCell.Tab.0.right" timestamp="1595039344692">
+    <state width="1537" height="99" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="99" key="GridCell.Tab.0.right" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="267" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595039344692" />
-    <state width="1537" height="411" key="GridCell.Tab.1.bottom" timestamp="1595038324461">
+    <state width="1537" height="99" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="99" key="GridCell.Tab.1.bottom" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="411" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595038324461" />
-    <state width="1537" height="411" key="GridCell.Tab.1.center" timestamp="1595038324461">
+    <state width="1537" height="99" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="99" key="GridCell.Tab.1.center" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="411" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595038324461" />
-    <state width="1537" height="411" key="GridCell.Tab.1.left" timestamp="1595038324461">
+    <state width="1537" height="99" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="99" key="GridCell.Tab.1.left" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="411" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595038324461" />
-    <state width="1537" height="411" key="GridCell.Tab.1.right" timestamp="1595038324461">
+    <state width="1537" height="99" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="99" key="GridCell.Tab.1.right" timestamp="1595144045361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="411" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595038324461" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1594944605596">
+    <state width="1537" height="99" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1595172812675">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594944605596" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595172812675" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1595039554601">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1595039554601" />
+    <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595142829355">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1595142829355" />
     <state x="313" y="146" width="910" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594951855163">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -351,10 +372,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="74" y="0" width="620" height="736" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1594959695702" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1595034243143">
+    <state x="470" y="173" key="refactoring.ChangeSignatureDialog" timestamp="1595141537593">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595034243143" />
+    <state x="470" y="173" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1595141537593" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1595133337438">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1595133337438" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1595132540108">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595132540108" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
