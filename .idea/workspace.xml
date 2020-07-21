@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9fb3033-c494-438e-8dfe-353ee9625c58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+    <list default="true" id="d9fb3033-c494-438e-8dfe-353ee9625c58" name="Default Changelist" comment="测试一下 markdown 图片显示">
+      <change afterPath="$PROJECT_DIR$/src/tree/binaryTree/binaryTree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/BinarySearchTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/bst.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Mj/tree/binarySearchTree/bst.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/binarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/binarySearchTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/binarySearchTree/bst.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/binarySearchTree/bst.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,12 +136,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\MyCode\DataStructure_Mj\src\tree" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MyCode\DataStructure_Mj\src\tree\binarySearchTree" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\circle" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\deque" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Queue" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare\anonymous" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare\official" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\list" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tree.binarySearchTree" />
@@ -143,12 +150,12 @@
       <recent name="Grammar.compare.comparable" />
       <recent name="queue.deQueue" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyCode\DataStructure_Mj\src\tree" />
       <recent name="E:\MyCode\DataStructure_Mj\src\tree\binarySearchTree" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare\anonymous" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare\official" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Grammar\compare" />
-      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\list" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\circle" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Queue\deque" />
+      <recent name="E:\MyCode\DataStructure_Mj\src\Queue" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
@@ -280,10 +287,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1595137423725" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1595173509049">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1595316836460">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595173509049" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595316836460" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1595135401649">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -292,38 +299,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1595031417224" />
-    <state width="1537" height="99" key="GridCell.Tab.0.bottom" timestamp="1595144045361">
+    <state width="1537" height="2" key="GridCell.Tab.0.bottom" timestamp="1595316270865">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
-    <state width="1537" height="99" key="GridCell.Tab.0.center" timestamp="1595144045361">
+    <state width="1537" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595316270865" />
+    <state width="1537" height="2" key="GridCell.Tab.0.center" timestamp="1595316270865">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
-    <state width="1537" height="99" key="GridCell.Tab.0.left" timestamp="1595144045361">
+    <state width="1537" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595316270865" />
+    <state width="1537" height="2" key="GridCell.Tab.0.left" timestamp="1595316270865">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
-    <state width="1537" height="99" key="GridCell.Tab.0.right" timestamp="1595144045361">
+    <state width="1537" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595316270865" />
+    <state width="1537" height="2" key="GridCell.Tab.0.right" timestamp="1595316270865">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
-    <state width="1537" height="99" key="GridCell.Tab.1.bottom" timestamp="1595144045361">
+    <state width="1537" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595316270865" />
+    <state width="1537" height="448" key="GridCell.Tab.1.bottom" timestamp="1595308733260">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
-    <state width="1537" height="99" key="GridCell.Tab.1.center" timestamp="1595144045361">
+    <state width="1537" height="448" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595308733260" />
+    <state width="1537" height="448" key="GridCell.Tab.1.center" timestamp="1595308733260">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
-    <state width="1537" height="99" key="GridCell.Tab.1.left" timestamp="1595144045361">
+    <state width="1537" height="448" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595308733260" />
+    <state width="1537" height="448" key="GridCell.Tab.1.left" timestamp="1595308733260">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
-    <state width="1537" height="99" key="GridCell.Tab.1.right" timestamp="1595144045361">
+    <state width="1537" height="448" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595308733260" />
+    <state width="1537" height="448" key="GridCell.Tab.1.right" timestamp="1595308733260">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="99" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595144045361" />
+    <state width="1537" height="448" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595308733260" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1595172812675">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -332,10 +339,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1595173557150" />
-    <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595142829355">
+    <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595303726268">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1595142829355" />
+    <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1595303726268" />
     <state x="313" y="146" width="910" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594951855163">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -352,10 +359,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1595133337438" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1595132540108">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1595302583609">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595132540108" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595302583609" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
