@@ -5,23 +5,65 @@ import data_structure.tree.binarySearchTree.printer.BinaryTrees;
 
 public class Main {
 
-
     public static void main(String[] args) {
-        test9_predecessor();
+        test10_travelsal_interface_lamada();
     }
 
+    /**
+     * 测试 Java8 的 lamada 表达式 在策略模式 Vistor 中的应用  —— 直接和接口中的方法内联
+     **/
+    public static void test10_travelsal_interface_lamada() {
+        Integer[] data = {7, 4, 9, 2, 5, 8, 11, 3};
+        BinarySearchTree<Person> bst = new BinarySearchTree<>();
+        for (int i = 0; i < data.length; i++) {
+            bst.add(new Person(data[i]));
+        }
+        BinaryTrees.println(bst);
 
-    public static void test9_predecessor(){ //TODO
+        /** 匿名类写法 **/
+//        bst.levelOrder_enhance(new BinarySearchTree.Vistor<Person>() {
+//            @Override
+//            public boolean visit(Person element) {
+//                System.out.print("**" + element + "**");
+//                return (element.getAge() == 4) ? true : false;
+//            }
+//        });
+        /** Lamada 写法 **/
+        bst.levelOrder_enhance(
+                (Person element)->{
+                System.out.print("λ" + element + "*λ*");
+                    return false;
+                }
+        );
+
+        System.out.println();
+    }
+
+    /**
+     * 测试获取 中序遍历 的前驱节点  和 后继节点
+     **/
+    public static void test9_predecessor() { //TODO
+        Integer data[] = new Integer[]{
+                7, 4, 9, 2, 5, 8, 11, 3, 12, 1
+        };
+
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
-        Integer[] data = {7, 4, 9, 2, 5, 8, 11,1};
         for (int i = 0; i < data.length; i++) {
             bst.add(data[i]);
         }
+
+        BinaryTrees.println(bst);
+
+        bst.remove(2);
+
         BinaryTrees.println(bst);
 //        System.out.println(bst.predecessor());
     }
-    /** 测试 判断是否是完全二叉树**/
-    public static void test8_calculateHeight(){
+
+    /**
+     * 测试 判断是否是完全二叉树
+     **/
+    public static void test8_calculateHeight() {
         // 手动填充数据
         // 如果想得到一个目标二叉树，就按层序遍历的顺序将其添加到数组中
         //        7
@@ -36,7 +78,7 @@ public class Main {
 
         // 随机生成数据
         for (int i = 0; i < 10; i++) {
-            bst.add((int)(Math.random()*100));
+            bst.add((int) (Math.random() * 100));
         }
 
 
@@ -46,8 +88,10 @@ public class Main {
     }
 
 
-    /** 测试计算二叉树的高度**/
-    public static void test7_calculateHeight(){
+    /**
+     * 测试计算二叉树的高度
+     **/
+    public static void test7_calculateHeight() {
         Integer[] data = {7, 4, 9, 2, 5, 8, 11, 3};
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
         for (int i = 0; i < data.length; i++) {
@@ -57,8 +101,10 @@ public class Main {
         System.out.println(bst.levelOrderTraversal_calcu());
     }
 
-    /** 测试 不依赖外界工具打印 二叉树**/
-    public static void test6_toString(){
+    /**
+     * 测试 不依赖外界工具打印 二叉树
+     **/
+    public static void test6_toString() {
         Integer[] data = {7, 4, 9, 2, 5, 8, 11, 3};
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
         for (int i = 0; i < data.length; i++) {
@@ -83,8 +129,8 @@ public class Main {
         bst.levelOrder_enhance(new BinarySearchTree.Vistor<Person>() {
             @Override
             public boolean visit(Person element) {
-                System.out.print("**"+element+"**");
-                return  (element.getAge() == 4) ?true:false;
+                System.out.print("**" + element + "**");
+                return (element.getAge() == 4) ? true : false;
             }
         });
 
@@ -176,7 +222,7 @@ public class Main {
         BinaryTrees.println(bst);
     }
 
-     /**
+    /**
      * 测试 添加 Integer 数据 到 bst
      */
     public static void test1_printIntegerTree() {

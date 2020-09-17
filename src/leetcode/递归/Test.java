@@ -1,5 +1,7 @@
 package leetcode.递归;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -9,7 +11,7 @@ import java.util.Scanner;
  **/
 public class Test {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
 
 //        while (true){
 //            int n = sc.nextInt();
@@ -23,7 +25,8 @@ public class Test {
 //        }
 
         int []tests = {11,22,11,22};
-        System.out.println(sumOfArr(tests,tests.length));
+//        System.out.println(sumOfArr(tests,tests.length));
+//        System.out.println(numWays(44));
 
     }
 
@@ -89,6 +92,33 @@ public class Test {
         return arr[length - 1] + sumOfArr(arr,length - 1);
     }
 
+    /**
+     * 青蛙跳台阶
+     */
 
+//    public static int numWays(int n) {
+//        if(n == 0 || n== 1) return 1;
+//        if(n == 2) return 2;
+//
+//        return (numWays(n-1)+numWays(n-2)) % 1000000007;
+//    }
+//
+//    public static int numWays(int n) {
+//        if(n == 0 || n== 1) return 1;
+//        if(n == 2) return 2;
+//
+//        // 将全局数据 放到了递归里面！！
+//        Map<Integer,Integer> map = new HashMap<>();
+//        HashMap<Integer,Integer> map = new HashMap<>();
+//
+//        // 如果计算过，就直接取出，反之计算
+//        if (map.containsKey(n)){
+//            return map.get(n);
+//        }else {
+//            int temp = (numWays(n-1)+numWays(n-2)) % 1000000007;
+//            map.put(n,temp);
+//            return temp;
+//        }
+//    }
 
 }

@@ -108,23 +108,73 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
     public void remove(E element) {
         remove(node(element));
     }
-    private void remove(Node node){
+
+    private void remove(Node<E> node) {
+        if (node == null) return;
+        /* Ⅰ 处理度为 2 的节点*/
+        if (hasTwoChildren(node)) {
+            //取得后继结点/前驱
+            Node<E> successor = successor(node);
+//            Node<E> successor =predecessor(node);
+            //用后继结点的值覆盖 node 的值
+            node.element = successor.element;
+            //先不删除后继结点/前驱节点，而是将 后继结点的 指针 传给 node(可以复用后面删除度 为 0 或 1 的节点的代码)
+            node = successor;
+        }// 后面 的 node 必为 度为 0 或 1
+
+        /** Ⅱ 删除节点 **/
+        // 取出要代替的节点  叶子节点取出的信息为 null ,度为 1 的节点取出 的是左/右节点
+        Node<E> replacment = node.leftChild != null ? node.leftChild : node.rightChild;
+
+        if (replacment == null) {/*Ⅱ.① 处理度为 0 的节点*/
+            if (node.parent == null) { // node 是 root 节点
+                root = null;
+            } else if (node == node.parent.leftChild) { // 左面的叶子节点
+                node.parent.leftChild = null;
+            } else {
+                node.parent.rightChild = null;
+            }
+        } else {/**Ⅱ.①处理 度为  1 的节点 **/
+            // ① 取出被删除节点 node（度为1） 的左/右子节点,也就是前面的 replacement
+            if (node.parent == null) {/** ② 若被删除节点 node 的 parent  为 null ,即为 root 节点 **/
+                // 变更 replacement 的 父节点   replacement.parent = root
+                replacment.parent = root;
+                // 更新 root
+                root = replacment;
+
+            } else {                /** ③ 若被删除节点 node 的 parent  不为 null**/
+                //  变更 replacement 的 父节点   replacement.parent = node.parent
+                replacment.parent = node.parent;
+                //  更新 被删除节点 node 的 parent
+                if (node == node.parent.leftChild) {
+                    node.parent.leftChild = replacment;
+                } else {
+                    node.parent.rightChild = replacment;
+                }
+            }
+        }
+        size--;
     }
+
     /* 获取元素对应的结点 */
-    private Node node(E element){
+    private Node node(E element) {
         Node<E> node = root;
-        while (node != null){
+        while (node != null) {
             // 遍历到指定结点，注意 bst 元素的有序性, 不同于普通二叉树
-            int cmp = compare(element,node.element);
-            if (cmp == 0){
+            int cmp = compare(element, node.element);
+            if (cmp == 0) {
                 return node;
-            }else if (cmp > 0){
+            } else if (cmp > 0) {
                 node = node.rightChild;
-            }else {
+            } else {
                 node = node.leftChild;
             }
         }
         return null;
+    }
+
+    private boolean hasTwoChildren(Node node) {
+        return node.leftChild != null && node.rightChild != null ? true : false;
     }
 
     public boolean contains(E element) {
@@ -458,64 +508,44 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         return true; // 队列已经遍历完毕，没有有问题的节点
     }
 
+    /********** 前趋节点 和 后继节点 ， 在 remove 中用到了 ，用在了删除 度为 2 的节点的情况中****************************************************/
     /**
      * 找前驱节点——中序遍历(左 根 右)的前一个节点
      **/
-    /* 根据值找节点 */
-//    private Node<E> FindNodeByValue(E e){
-//    }
-//    public E predecessor(E e) {
-//        // 寻找 e 对应的节点  TODO 实现根据元素定位节点的方法
-//    }
     private Node<E> predecessor(Node node) {
         Node predecessor = null;
 
         if (node.leftChild != null) { // 从左子树找，一定存在
-//            Node iterator = node.leftChild;
-//            predecessor = iterator;
-//
-//            while (iterator.rightChild != null) {
-//                predecessor = iterator.rightChild; // 退出循环前记录下来满足条件的不为 null 的数据
-//                iterator = iterator.rightChild;
-//            }
-
             /*  代码优化，没必要考虑循环退出后数据 备忘的工作 */
             Node iterator = node.leftChild;
-            while (iterator.rightChild != null) { //
+            while (iterator.rightChild != null) { // 找到最右面的
                 iterator = iterator.rightChild;
             }
             return iterator;
-
         } else {
             if (node.parent == null) {
                 return null;
             } else {
                 Node iterator = node;
                 while (iterator.parent != null) {
-                    if (iterator.parent.rightChild == iterator) { // 找到 和当前节点是 父右孩子关系的节点
+                    if (iterator.parent.rightChild == iterator) { // 找到 和当前节点是 父——右孩子 关系的节点
                         predecessor = iterator.parent;
                         break;
                     }
                     iterator = iterator.parent;
                 }
-
-//                // 寻找最近的父节点，判断是否位于父节点的右侧
-//                while (iterator.parent != null && iterator != iterator.parent.rightChild) {
-//                    predecessor = iterator.parent;
-//                    iterator = iterator.parent;
-//                }
             }
         }
-
         return predecessor;
     }
 
+    /* 找后继节点 ——代码和前继 节点 对称*/
     private Node<E> successor(Node node) {
-        Node successor= null;
+        Node successor = null;
 
-        if (node.leftChild != null) { // 从右子树找，一定存在
-            Node iterator = node.leftChild;
-            while (iterator.leftChild!= null) { //
+        if (node.rightChild != null) { // 从右子树找，一定存在
+            Node iterator = node.rightChild;
+            while (iterator.leftChild != null) { // 找到最左面的
                 iterator = iterator.leftChild;
             }
             return iterator;
@@ -525,7 +555,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
             } else {
                 Node iterator = node;
                 while (iterator.parent != null) {
-                    if (iterator.parent.leftChild == iterator) { // 找到 和当前节点是 父右孩子关系的节点
+                    if (iterator.parent.leftChild == iterator) { // 找到 和当前节点是 父 ——左孩子 关系的节点
                         successor = iterator.parent;
                         break;
                     }
@@ -535,5 +565,4 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         }
         return successor;
     }
-
 }
