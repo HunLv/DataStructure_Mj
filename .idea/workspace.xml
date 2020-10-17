@@ -2,87 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9fb3033-c494-438e-8dfe-353ee9625c58" name="Default Changelist" comment="备份一下">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/图的遍历.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/存储.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/最短路径.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/术语.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/heap/heap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/string/KMP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/B+/B+.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/B_tree/B-tree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/avl/avl.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/huffuman/huffman.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/store/树的存储.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/data/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/printer/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/线索二叉树.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/森林 树- 二叉树的转换.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/HelloLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/HelloStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/Stream常用操作.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/fuction_program.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/lambda.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/stream/Dish_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/stream/map_demo/Numbers_Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/stream/map_demo/TODO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/stream/map_demo/Words_Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/optional/Optional_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/optional/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/optional/optional.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/typeConversion/collection/ListToArrayOfInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/typeConversion/collection/ListToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grammar/typeConversion/collection/collection_convert.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/_201.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/_202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/_204.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/算法/全排列/_46_全排列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/递归/_647_回文子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/递归/_青蛙跳台阶问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/递归/_面试题_0806Hanota_LCCI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/递归/recurse.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/collection/collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/树的常用性质.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grammar/collection/collection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grammar/collection/queue/queue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grammar/lambda/stream/stream.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grammar/string/img/image-20200728134645981.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grammar/string/string.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grammar/typeConversion/binary/binary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lanqiao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/BublleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/排序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/二叉树/_二叉树的最近公共祖先.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/字符串/_3_无重复字符的最长子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/字符串/字符串.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/Grammar/stream/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/Grammar/stream/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/Grammar/stream/stream.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/LeetCode/周赛/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Mj/LeetCode/周赛/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/LeetCode/递归/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Mj/LeetCode/递归/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/tools/Asserts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/binarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/binarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/binarySearchTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/binarySearchTree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/binarySearchTree/bst.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/binarySearchTree/bst.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/tree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/stream/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/lambda/stream/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/stream/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/stream/stream.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/lambda/stream/stream.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/collection/Collections_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/collection/Collections_Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/collection/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/collection/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/collection/collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/collection/collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/collection/queue/ArrayDeque_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/collection/queue/ArrayDeque_Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/collection/queue/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/collection/queue/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/collection/queue/queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/collection/queue/queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/string/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/string/img/image-20200728134645981.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/string/img/image-20200728134645981.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/string/string.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/string/string.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/typeConversion/IntArrayToIntegerArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/typeConversion/IntArrayToIntegerArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/typeConversion/binary/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/typeConversion/binary/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/typeConversion/binary/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/typeConversion/binary/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/typeConversion/binary/binary.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/typeConversion/binary/binary.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/typeConversion/collection/ArrayToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/typeConversion/collection/ArrayToList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/typeConversion/collection/ListToArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grammar/type/typeConversion/collection/collection.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/周赛/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/周赛/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/递归/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/递归/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/data_structure/graph/graph.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/data_structure/tree/store/存储.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Mj/template/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Mj/template/template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/线索二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/threaded_binary_tree/线索二叉树.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,9 +118,9 @@
       <command value="setting" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structure.tree.binarySearchTree.Main" />
+  <component name="RunManager" selected="Application.BublleSort">
+    <configuration name="BublleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.BublleSort" />
       <module name="DataStructure_Mj" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers_Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grammar.lambda.stream.map_demo.Numbers_Square" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.SelectSort" />
       <module name="DataStructure_Mj" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application._204" />
-      <item itemvalue="Application.Numbers_Square" />
       <item itemvalue="Application.Words_Split" />
+      <item itemvalue="Application.SelectSort" />
+      <item itemvalue="Application.BublleSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BublleSort" />
+        <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application._204" />
         <item itemvalue="Application.Words_Split" />
-        <item itemvalue="Application.Numbers_Square" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -306,10 +246,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="511" y="317" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1598757992508" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1599214495554">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1600339428556">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599214495554" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1600339428556" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599214475291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -334,22 +274,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="350" key="GridCell.Tab.-1.right/0.0.1536.834@0.0.1536.834" timestamp="1598785077989" />
-    <state width="1537" height="200" key="GridCell.Tab.0.bottom" timestamp="1599452816246">
+    <state width="1537" height="265" key="GridCell.Tab.0.bottom" timestamp="1601807416146">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="200" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599452816246" />
-    <state width="1537" height="200" key="GridCell.Tab.0.center" timestamp="1599452816246">
+    <state width="1537" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601807416146" />
+    <state width="1537" height="265" key="GridCell.Tab.0.center" timestamp="1601807416146">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="200" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599452816246" />
-    <state width="1537" height="200" key="GridCell.Tab.0.left" timestamp="1599452816246">
+    <state width="1537" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601807416146" />
+    <state width="1537" height="265" key="GridCell.Tab.0.left" timestamp="1601807416146">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="200" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599452816246" />
-    <state width="1537" height="200" key="GridCell.Tab.0.right" timestamp="1599452816246">
+    <state width="1537" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601807416146" />
+    <state width="1537" height="265" key="GridCell.Tab.0.right" timestamp="1601807416146">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="200" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599452816246" />
+    <state width="1537" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601807416146" />
     <state x="728" y="92" width="668" height="676" key="GridCell.Tab.1.bottom" timestamp="1598787915890">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -394,10 +334,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="490" y="159" width="540" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1595853415520" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1596880304305">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1600339450531">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1596880304305" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1600339450531" />
     <state width="775" height="424" key="XDebugger.FullValuePopup" timestamp="1598747200845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -422,10 +362,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="728" y="92" width="682" height="742" key="dock-window-2/0.0.1536.834@0.0.1536.834" timestamp="1598788149786" />
-    <state x="185" y="30" width="989" height="716" key="find.popup" timestamp="1599728092927">
+    <state x="185" y="30" width="989" height="716" key="find.popup" timestamp="1602055202742">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="185" y="30" width="989" height="716" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1599728092927" />
+    <state x="185" y="30" width="989" height="716" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1602055202742" />
     <state x="401" y="27" key="new project wizard" timestamp="1600267219191">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -438,10 +378,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1597830337838" />
-    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1600338636956">
+    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1602774102880">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1600338636956" />
+    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1602774102880" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
